@@ -355,12 +355,12 @@ export default function Home() {
             <article className="archive-card">
               <span className="archive-number">08</span>
               <p className="project-kicker">Skallywags / Game jams</p>
-              <h4>Five collaborative prototypes</h4>
+              <h4>48–72-hour team game jams</h4>
               <p>
-                Built small-team experiments across action, platforming, and puzzle
-                design: Grapple Blast!, Gravity Blast, Superpositioned, Cranky
-                Robot, and Kube a la Neon. The set includes entries for Global Game
-                Jam, Ludum Dare, and the Lost Relic Game Jam.
+                Built five small-team games spanning action, platforming, and puzzle
+                design. Won Global Game Jam Austin with Superpositioned and placed
+                11th in the Lost Relic Game Jam with Grapple Blast!; the collection
+                also includes Gravity Blast, Cranky Robot, and Kube a la Neon.
               </p>
               <a
                 className="archive-link"
@@ -371,9 +371,9 @@ export default function Home() {
                 View the game jam collection <span aria-hidden="true">↗</span>
               </a>
               <ul className="archive-tags" aria-label="Technologies and disciplines">
-                <li>Rapid prototyping</li>
-                <li>2D / 3D</li>
-                <li>Team jams</li>
+                <li>48–72 hours</li>
+                <li>GGJ Austin winner</li>
+                <li>Lost Relic #11</li>
               </ul>
             </article>
 
