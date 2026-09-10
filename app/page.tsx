@@ -45,18 +45,18 @@ export default function Home() {
           rel="noreferrer"
           aria-label="View Boomerang Jack on Steam"
         >
-          <img
-            src="/boomerang-jack-combat.webp"
-            alt="Boomerang Jack fighting multiple enemies inside a fiery combat arena"
-          />
-          <span className="image-wash" aria-hidden="true" />
-          <span className="project-stamp">
-            <span>Four years of full production / Shipped 2026</span>
-            <strong>Boomerang Jack</strong>
-            <span>Founder &amp; Lead Developer</span>
+          <span className="hero-art">
+            <img
+              src="/boomerang-jack-vertical.jpg"
+              alt="Boomerang Jack illustrated key art with Jack holding a boomerang above an island landscape"
+            />
+            <span className="project-arrow" aria-hidden="true">
+              ↗
+            </span>
           </span>
-          <span className="project-arrow" aria-hidden="true">
-            ↗
+          <span className="hero-project-meta">
+            <span>Four years of full production</span>
+            <span>Shipped 2026 / Founder &amp; Lead Developer</span>
           </span>
         </a>
       </section>
@@ -139,6 +139,17 @@ export default function Home() {
             </dl>
           </div>
         </article>
+
+        <figure className="case-combat">
+          <img
+            src="/boomerang-jack-combat.webp"
+            alt="Boomerang Jack fighting multiple enemies inside a fiery combat arena"
+          />
+          <figcaption>
+            Combat implementation spanned multi-enemy encounters, bosses,
+            projectiles, progression, player feedback, and difficulty pacing.
+          </figcaption>
+        </figure>
 
         <div className="case-breakdown">
           <figure className="case-visual">

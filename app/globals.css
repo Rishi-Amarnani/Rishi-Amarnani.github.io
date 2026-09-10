@@ -255,17 +255,23 @@ svg {
 
 .hero-project {
   display: block;
-  min-height: 29rem;
-  aspect-ratio: 1.08;
+  width: min(100%, 31rem);
   align-self: center;
+  justify-self: end;
+  color: inherit;
+}
+
+.hero-art {
+  display: block;
   position: relative;
   overflow: hidden;
+  aspect-ratio: 748 / 896;
   background: var(--card);
   border: 1px solid #454850;
   box-shadow: 1.2rem 1.2rem 0 rgb(255 176 0 / 0.17);
 }
 
-.hero-project::after {
+.hero-art::after {
   content: '';
   position: absolute;
   inset: 0;
@@ -278,14 +284,35 @@ svg {
   height: 100%;
   display: block;
   object-fit: cover;
-  object-position: 56% center;
-  filter: saturate(0.92) contrast(1.1);
   transition: transform 500ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .hero-project:hover img,
 .hero-project:focus-visible img {
   transform: scale(1.035);
+}
+
+.hero-project-meta {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  margin-top: 1.35rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--border);
+  color: #d2d3d5;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.68rem;
+  line-height: 1.55;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+
+.hero-project-meta > span:first-child {
+  color: var(--secondary);
+}
+
+.hero-project-meta > span:last-child {
+  text-align: right;
 }
 
 .skills-section {
@@ -310,48 +337,10 @@ svg {
   letter-spacing: 0.08em;
 }
 
-.image-wash {
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(180deg, transparent 35%, rgb(3 4 6 / 0.9) 100%),
-    linear-gradient(90deg, rgb(8 9 11 / 0.18), transparent 60%);
-}
-
-.project-stamp {
-  position: absolute;
-  left: 1.5rem;
-  right: 5rem;
-  bottom: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  font-family: var(--font-geist-mono), monospace;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-.project-stamp strong {
-  font-family: var(--font-geist-sans), sans-serif;
-  font-size: clamp(1.8rem, 3vw, 3.2rem);
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: -0.05em;
-}
-
-.project-stamp > span:first-child {
-  color: var(--secondary);
-}
-
-.project-stamp > span:last-child {
-  color: #d2d3d5;
-}
-
 .project-arrow {
   position: absolute;
-  right: 1.5rem;
-  bottom: 1.5rem;
+  right: 1rem;
+  bottom: 1rem;
   width: 3rem;
   height: 3rem;
   display: grid;
@@ -512,6 +501,30 @@ svg {
   margin: 0.35rem 0 0;
   font-size: 0.75rem;
   line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.case-combat {
+  margin: 8rem 0 0;
+}
+
+.case-combat img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: block;
+  object-fit: cover;
+  border: 1px solid #454850;
+  box-shadow: 0.8rem 0.8rem 0 rgb(255 176 0 / 0.14);
+}
+
+.case-combat figcaption {
+  max-width: 38rem;
+  margin: 1.35rem 0 0 auto;
+  color: var(--muted-foreground);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.76rem;
+  line-height: 1.6;
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
@@ -1019,9 +1032,7 @@ footer a:focus-visible {
   }
 
   .hero-project {
-    width: min(100%, 42rem);
-    min-height: 25rem;
-    aspect-ratio: 4 / 3;
+    width: min(100%, 31rem);
     justify-self: end;
   }
 
@@ -1119,8 +1130,16 @@ footer a:focus-visible {
   }
 
   .hero-project {
-    min-height: 25rem;
-    aspect-ratio: 4 / 3;
+    width: min(100%, 26rem);
+  }
+
+  .hero-project-meta {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+
+  .hero-project-meta > span:last-child {
+    text-align: left;
   }
 
   .skills-section {
@@ -1158,6 +1177,10 @@ footer a:focus-visible {
   .case-breakdown {
     margin-top: 6rem;
     gap: 4rem;
+  }
+
+  .case-combat {
+    margin-top: 5rem;
   }
 
   .case-visual img {
