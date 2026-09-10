@@ -255,8 +255,8 @@ svg {
 
 .hero-project {
   display: block;
-  min-height: 31rem;
-  aspect-ratio: 0.92;
+  min-height: 29rem;
+  aspect-ratio: 1.08;
   align-self: center;
   position: relative;
   overflow: hidden;
@@ -492,6 +492,91 @@ svg {
   line-height: 1.4;
   text-transform: uppercase;
   letter-spacing: 0.06em;
+}
+
+.case-breakdown {
+  display: grid;
+  grid-template-columns: minmax(22rem, 0.82fr) minmax(0, 1.18fr);
+  gap: clamp(3rem, 7vw, 8rem);
+  align-items: start;
+  margin-top: 8rem;
+}
+
+.case-visual {
+  margin: 0;
+  position: sticky;
+  top: 2rem;
+}
+
+.case-visual img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid #454850;
+  box-shadow: 0.8rem 0.8rem 0 rgb(216 255 62 / 0.14);
+}
+
+.case-visual figcaption {
+  max-width: 34rem;
+  margin-top: 1.35rem;
+  color: var(--muted-foreground);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.76rem;
+  line-height: 1.6;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.case-story h3 {
+  max-width: 10ch;
+  margin: 1.25rem 0 2rem;
+  font-size: clamp(2.8rem, 5.2vw, 5.75rem);
+  line-height: 0.94;
+  letter-spacing: -0.065em;
+}
+
+.case-summary {
+  max-width: 43rem;
+  margin: 0;
+  color: #c7c8cb;
+  font-size: clamp(1.1rem, 1.7vw, 1.4rem);
+  line-height: 1.6;
+}
+
+.story-grid {
+  margin-top: 3.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.story-grid section {
+  display: grid;
+  grid-template-columns: 3.5rem minmax(11rem, 0.72fr) minmax(14rem, 1.28fr);
+  gap: 1.4rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.story-grid span {
+  color: var(--primary);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+}
+
+.story-grid h4 {
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.35;
+  letter-spacing: -0.025em;
+}
+
+.story-grid p {
+  margin: 0;
+  color: var(--muted-foreground);
+  font-size: 0.92rem;
+  line-height: 1.65;
 }
 
 .project-list {
@@ -786,6 +871,7 @@ footer a:focus-visible {
 
   .section-heading,
   .case-study,
+  .case-breakdown,
   .about-grid,
   .contact-layout {
     grid-template-columns: 1fr;
@@ -811,6 +897,15 @@ footer a:focus-visible {
 
   .project-card-copy > p {
     margin-top: 1.5rem;
+  }
+
+  .case-visual {
+    width: min(100%, 46rem);
+    position: static;
+  }
+
+  .case-visual img {
+    aspect-ratio: 16 / 10;
   }
 
   .contact-layout {
@@ -851,7 +946,7 @@ footer a:focus-visible {
 
   .hero-project {
     min-height: 25rem;
-    aspect-ratio: 0.88;
+    aspect-ratio: 4 / 3;
   }
 
   .section-shell {
@@ -879,6 +974,24 @@ footer a:focus-visible {
 
   .project-list {
     margin-top: 5rem;
+  }
+
+  .case-breakdown {
+    margin-top: 6rem;
+    gap: 4rem;
+  }
+
+  .case-visual img {
+    aspect-ratio: 4 / 3;
+  }
+
+  .story-grid section {
+    grid-template-columns: 2.5rem 1fr;
+    gap: 0.9rem;
+  }
+
+  .story-grid p {
+    grid-column: 2;
   }
 
   .project-card {

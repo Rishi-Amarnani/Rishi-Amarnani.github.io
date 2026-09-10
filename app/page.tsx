@@ -46,12 +46,12 @@ export default function Home() {
           aria-label="View Boomerang Jack on Steam"
         >
           <img
-            src="/boomerang-jack.jpg"
-            alt="Boomerang Jack gameplay in a torchlit pirate camp"
+            src="/boomerang-jack-combat.webp"
+            alt="Boomerang Jack fighting multiple enemies inside a fiery combat arena"
           />
           <span className="image-wash" aria-hidden="true" />
           <span className="project-stamp">
-            <span>Shipped 2026</span>
+            <span>Four years in development / Shipped 2026</span>
             <strong>Boomerang Jack</strong>
             <span>Founder &amp; Lead Developer</span>
           </span>
@@ -72,8 +72,9 @@ export default function Home() {
             <p className="project-kicker">Featured release / Recall Interactive</p>
             <h3>Boomerang Jack</h3>
             <p>
-              A story-driven 2D action-adventure RPG built from concept through
-              launch and post-release support with a small, distributed team.
+              A story-driven 2D action-adventure RPG shaped across four years of
+              development—from the first combat prototypes through launch and
+              post-release support with a small, distributed team.
             </p>
             <a className="text-link" href={steamUrl} target="_blank" rel="noreferrer">
               View on Steam <span aria-hidden="true">↗</span>
@@ -89,6 +90,10 @@ export default function Home() {
             </p>
             <dl className="impact-grid">
               <div>
+                <dt>4 yrs</dt>
+                <dd>from prototype to release</dd>
+              </div>
+              <div>
                 <dt>80k</dt>
                 <dd>line Unity/C# codebase</dd>
               </div>
@@ -97,16 +102,74 @@ export default function Home() {
                 <dd>levels built and balanced</dd>
               </div>
               <div>
-                <dt>30</dt>
-                <dd>enemy behaviors</dd>
-              </div>
-              <div>
                 <dt>11</dt>
                 <dd>localized languages</dd>
               </div>
             </dl>
           </div>
         </article>
+
+        <div className="case-breakdown">
+          <figure className="case-visual">
+            <img
+              src="/boomerang-jack-world.webp"
+              alt="Jack facing enormous luminous creatures in a moonlit environment"
+            />
+            <figcaption>
+              The work crossed combat, traversal, narrative, tools, and world
+              implementation—not one isolated feature.
+            </figcaption>
+          </figure>
+
+          <div className="case-story">
+            <p className="project-kicker">What I owned</p>
+            <h3>A whole-game role across four years.</h3>
+            <p className="case-summary">
+              I founded Recall Interactive and led three developers and two
+              interns through the decisions, systems, and production work needed
+              to turn a prototype into a commercial Steam release.
+            </p>
+
+            <div className="story-grid">
+              <section>
+                <span>01</span>
+                <h4>Combat &amp; progression</h4>
+                <p>
+                  Designed and implemented free-flow combat, enemy and boss AI,
+                  traversal, skill-tree progression, combat puzzles, and difficulty
+                  pacing across 50 levels, 9 bosses, and 30 enemy types.
+                </p>
+              </section>
+              <section>
+                <span>02</span>
+                <h4>Narrative systems</h4>
+                <p>
+                  Co-wrote the story and worldbuilding, led dialogue, and used
+                  Pixel Crushers to drive branching conversations, cutscenes,
+                  quests, animation, narration, shaders, and visual effects.
+                </p>
+              </section>
+              <section>
+                <span>03</span>
+                <h4>Tools &amp; localization</h4>
+                <p>
+                  Built reusable ScriptableObject frameworks, editor workflows,
+                  and a custom pipeline for 10,000 words across 11 languages,
+                  combining first-pass automation with specialist review.
+                </p>
+              </section>
+              <section>
+                <span>04</span>
+                <h4>Production &amp; release</h4>
+                <p>
+                  Maintained the 80,000-line Unity/C# codebase and coordinated
+                  profiling, telemetry, QA, localization, Steamworks, publishing,
+                  release readiness, and post-launch updates.
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
 
         <div className="project-list">
           <article className="project-card card-lime">
