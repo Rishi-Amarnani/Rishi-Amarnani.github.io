@@ -30,7 +30,7 @@ export default function Home() {
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="#work">
-              See selected work <span aria-hidden="true">↘</span>
+              See the work <span aria-hidden="true">↘</span>
             </a>
             <a className="text-link" href="mailto:rsaamar@gmail.com">
               Start a conversation <span aria-hidden="true">↗</span>
@@ -63,8 +63,8 @@ export default function Home() {
 
       <section className="work-section section-shell" id="work">
         <div className="section-heading">
-          <p className="section-index">01 / Selected work</p>
-          <h2>Shipped games. Useful tools. Better iteration.</h2>
+          <p className="section-index">01 / Work</p>
+          <h2>Shipped work, tools, and production experience.</h2>
         </div>
 
         <article className="case-study">
@@ -178,10 +178,16 @@ export default function Home() {
               <p className="project-kicker">Games for Love / 2025—Present</p>
               <h3>Kicklings World Soccer 2D</h3>
               <p>
-                Helped ship and support a cozy tournament game for WebGL. Built
-                adaptive difficulty, analytics, content integrations, and tooling
+                Helped ship and support the Unity WebGL tournament build now
+                available through Jampack. Built adaptive difficulty, analytics,
+                content integrations, an art-asset pipeline, and internal tools
                 that sped up design and art iteration.
               </p>
+              <div className="project-links">
+                <a href="https://jampack.org/" target="_blank" rel="noreferrer">
+                  Visit Jampack <span aria-hidden="true">↗</span>
+                </a>
+              </div>
               <ul className="tag-list" aria-label="Technologies and disciplines">
                 <li>Unity</li>
                 <li>C#</li>
@@ -229,26 +235,177 @@ export default function Home() {
             </div>
           </article>
         </div>
+
+        <section
+          className="experience-archive"
+          id="experience"
+          aria-labelledby="experience-title"
+        >
+          <div className="archive-heading">
+            <p className="project-kicker">Additional experience</p>
+            <h3 id="experience-title">Released work, prototypes, and engineering.</h3>
+          </div>
+
+          <div className="archive-grid">
+            <article className="archive-card">
+              <span className="archive-number">05</span>
+              <p className="project-kicker">Sandstorm Games / 2026—Present</p>
+              <h4>Unannounced neo-noir action game</h4>
+              <p>
+                Wrote plot and worldbuilding, organized narrative documentation and
+                development planning, and prototyped top-down combat with 15 enemy
+                types, bullet time, minibosses, advanced AI, difficulty tuning,
+                tools, and concept art.
+              </p>
+              <ul className="archive-tags" aria-label="Technologies and disciplines">
+                <li>Unity</li>
+                <li>Narrative</li>
+                <li>Combat AI</li>
+                <li>Codex</li>
+              </ul>
+            </article>
+
+            <article className="archive-card">
+              <span className="archive-number">06</span>
+              <p className="project-kicker">Looty Games / 2018</p>
+              <h4>Cannon Ballers</h4>
+              <p>
+                Worked as a mobile Unity developer and game design intern,
+                designing and programming enemy behaviors for the first
+                investor-playable build of the one-handed mobile roguelite.
+              </p>
+              <a
+                className="archive-link"
+                href="https://www.taptap.io/app/178194"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View on TapTap <span aria-hidden="true">↗</span>
+              </a>
+              <ul className="archive-tags" aria-label="Technologies and disciplines">
+                <li>Unity</li>
+                <li>C#</li>
+                <li>Mobile</li>
+                <li>Gameplay AI</li>
+              </ul>
+            </article>
+
+            <article className="archive-card">
+              <span className="archive-number">07</span>
+              <p className="project-kicker">Team Whirligig / 2018</p>
+              <h4>Royal Plush</h4>
+              <p>
+                Led gameplay programming for a released 3D Unity action-adventure,
+                building mission management, stealth detection, physics-based
+                platforming, environmental interactions, and build management. A
+                Finnish Let&apos;s Play has reached 345K views.
+              </p>
+              <div className="archive-links">
+                <a
+                  className="archive-link"
+                  href="https://rishi-games.itch.io/royal-plush"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View on itch.io <span aria-hidden="true">↗</span>
+                </a>
+                <a
+                  className="archive-link"
+                  href="https://youtu.be/jtIfkqxLzcc?si=oGrGDKd4n98yNu5p"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Watch the 345K Let&apos;s Play <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+              <ul className="archive-tags" aria-label="Technologies and disciplines">
+                <li>Unity</li>
+                <li>3D</li>
+                <li>Gameplay</li>
+                <li>PC / Mac</li>
+              </ul>
+            </article>
+
+            <article className="archive-card">
+              <span className="archive-number">08</span>
+              <p className="project-kicker">Skallywags / Game jams</p>
+              <h4>Five collaborative prototypes</h4>
+              <p>
+                Built small-team experiments across action, platforming, and puzzle
+                design: Grapple Blast!, Gravity Blast, Superpositioned, Cranky
+                Robot, and Kube a la Neon. The set includes entries for Global Game
+                Jam, Ludum Dare, and the Lost Relic Game Jam.
+              </p>
+              <a
+                className="archive-link"
+                href="https://skallywags.itch.io/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View the game jam collection <span aria-hidden="true">↗</span>
+              </a>
+              <ul className="archive-tags" aria-label="Technologies and disciplines">
+                <li>Rapid prototyping</li>
+                <li>2D / 3D</li>
+                <li>Team jams</li>
+              </ul>
+            </article>
+
+            <article className="archive-card">
+              <span className="archive-number">09</span>
+              <p className="project-kicker">Fujitsu / 2019—2022</p>
+              <h4>Production C++ systems</h4>
+              <p>
+                Led team-wide development of a production feature across multiple
+                YANG data models, improved startup performance by 66% with Python
+                and C++ automation, and received the 2022 Clean Architect Award for
+                maintainable system design.
+              </p>
+              <ul className="archive-tags" aria-label="Technologies and disciplines">
+                <li>C++</li>
+                <li>Python</li>
+                <li>YANG</li>
+                <li>Agile Scrum</li>
+              </ul>
+            </article>
+
+            <article className="archive-card">
+              <span className="archive-number">10</span>
+              <p className="project-kicker">UT Austin / Technical game project</p>
+              <h4>Custom C++ / Ogre3D game engine</h4>
+              <p>
+                Built a PC billiards game with meshes, audio, camera controls,
+                vector math, physics, adaptive AI, and error handling. The project
+                was an Intel showcase finalist and represented the program at GDC
+                2019.
+              </p>
+              <ul className="archive-tags" aria-label="Technologies and disciplines">
+                <li>C++</li>
+                <li>Ogre3D</li>
+                <li>Physics</li>
+                <li>PC</li>
+              </ul>
+            </article>
+          </div>
+        </section>
       </section>
 
       <section className="about-section section-shell" id="about">
         <div className="section-heading">
           <p className="section-index">02 / About</p>
-          <h2>Designer’s instinct. Engineer’s follow-through.</h2>
+          <h2>What I’ve built and worked with.</h2>
         </div>
 
         <div className="about-grid">
           <div className="about-copy">
             <p className="about-lede">
-              I work where design intent meets implementation: shaping the player
-              experience, building the systems behind it, and giving teams better
-              ways to iterate.
+              My work spans gameplay programming, game design, narrative
+              implementation, Unity tools, content pipelines, and release support.
             </p>
             <p>
-              My background spans independent game development, small-team
-              leadership, contract production, and C++ software engineering. I’m
-              comfortable owning a feature from rough idea and prototype through
-              QA, localization, platform integration, and release.
+              I’ve led a commercial game from prototype through Steam release,
+              contributed to PC, mobile, and WebGL projects, built production tools
+              for distributed teams, and previously shipped C++ software at Fujitsu.
             </p>
           </div>
 
@@ -280,22 +437,30 @@ export default function Home() {
           <p>Unity 6</p>
           <p>C#</p>
           <p>C++</p>
-          <p>PC / Steam</p>
+          <p>2D</p>
+          <p>3D</p>
+          <p>PC</p>
           <p>Mobile</p>
           <p>WebGL</p>
-          <p>Git / Perforce</p>
-          <p>AI-assisted development</p>
+          <p>Pixel Crushers</p>
+          <p>Steamworks</p>
+          <p>Git</p>
+          <p>Perforce</p>
+          <p>Agile</p>
+          <p>Codex</p>
+          <p>GitHub Copilot</p>
+          <p>Claude Code</p>
         </div>
       </section>
 
       <section className="contact-section section-shell" id="contact">
         <p className="section-index">03 / Contact</p>
         <div className="contact-layout">
-          <h2>Let’s make the next thing feel great.</h2>
+          <h2>Contact and profiles.</h2>
           <div className="contact-copy">
             <p>
-              Have a game, prototype, or production problem that needs both design
-              judgment and engineering depth? I’d like to hear about it.
+              For roles, contract work, or questions about the projects above,
+              email me. My LinkedIn and GitHub are linked below.
             </p>
             <a className="button button-primary" href="mailto:rsaamar@gmail.com">
               rsaamar@gmail.com <span aria-hidden="true">↗</span>
