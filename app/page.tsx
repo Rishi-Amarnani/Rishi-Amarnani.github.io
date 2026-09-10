@@ -51,7 +51,7 @@ export default function Home() {
           />
           <span className="image-wash" aria-hidden="true" />
           <span className="project-stamp">
-            <span>Four years in development / Shipped 2026</span>
+            <span>Four years of full production / Shipped 2026</span>
             <strong>Boomerang Jack</strong>
             <span>Founder &amp; Lead Developer</span>
           </span>
@@ -59,6 +59,30 @@ export default function Home() {
             ↗
           </span>
         </a>
+      </section>
+
+      <section className="skills-section" aria-labelledby="skills-title">
+        <p className="skills-heading" id="skills-title">
+          Core stack &amp; workflow
+        </p>
+        <div className="experience-strip" aria-label="Skills and experience">
+          <p>Unity 6</p>
+          <p>C#</p>
+          <p>C++</p>
+          <p>2D</p>
+          <p>3D</p>
+          <p>PC</p>
+          <p>Mobile</p>
+          <p>WebGL</p>
+          <p>Pixel Crushers</p>
+          <p>Steamworks</p>
+          <p>Git</p>
+          <p>Perforce</p>
+          <p>Agile</p>
+          <p>Codex</p>
+          <p>GitHub Copilot</p>
+          <p>Claude Code</p>
+        </div>
       </section>
 
       <section className="work-section section-shell" id="work">
@@ -69,11 +93,13 @@ export default function Home() {
 
         <article className="case-study">
           <div className="case-intro">
-            <p className="project-kicker">Featured release / Recall Interactive</p>
+            <p className="project-kicker">
+              Featured release / Recall Interactive / 2018—Present
+            </p>
             <h3>Boomerang Jack</h3>
             <p>
-              A story-driven 2D action-adventure RPG shaped across four years of
-              development—from the first combat prototypes through launch and
+              A story-driven 2D action-adventure RPG developed through four years
+              of full production, then carried through its 2026 Steam launch and
               post-release support with a small, distributed team.
             </p>
             <a className="text-link" href={steamUrl} target="_blank" rel="noreferrer">
@@ -91,7 +117,7 @@ export default function Home() {
             <dl className="impact-grid">
               <div>
                 <dt>4 yrs</dt>
-                <dd>from prototype to release</dd>
+                <dd>of full production</dd>
               </div>
               <div>
                 <dt>80k</dt>
@@ -123,11 +149,11 @@ export default function Home() {
 
           <div className="case-story">
             <p className="project-kicker">What I owned</p>
-            <h3>A whole-game role across four years.</h3>
+            <h3>A whole-game role across production and release.</h3>
             <p className="case-summary">
               I founded Recall Interactive and led three developers and two
-              interns through the decisions, systems, and production work needed
-              to turn a prototype into a commercial Steam release.
+              interns during full production, owning the decisions, systems, and
+              coordination behind the game&apos;s eventual commercial Steam release.
             </p>
 
             <div className="story-grid">
@@ -354,7 +380,7 @@ export default function Home() {
             <article className="archive-card">
               <span className="archive-number">09</span>
               <p className="project-kicker">Fujitsu / 2019—2022</p>
-              <h4>Production C++ systems</h4>
+              <h4>Fujitsu C++ systems</h4>
               <p>
                 Led team-wide development of a production feature across multiple
                 YANG data models, improved startup performance by 66% with Python
@@ -372,7 +398,7 @@ export default function Home() {
             <article className="archive-card">
               <span className="archive-number">10</span>
               <p className="project-kicker">UT Austin / Technical game project</p>
-              <h4>Custom C++ / Ogre3D game engine</h4>
+              <h4>Custom-built C++ game engine</h4>
               <p>
                 Built a PC billiards game with meshes, audio, camera controls,
                 vector math, physics, adaptive AI, and error handling. The project
@@ -403,9 +429,10 @@ export default function Home() {
               implementation, Unity tools, content pipelines, and release support.
             </p>
             <p>
-              I’ve led a commercial game from prototype through Steam release,
-              contributed to PC, mobile, and WebGL projects, built production tools
-              for distributed teams, and previously shipped C++ software at Fujitsu.
+              I’ve led a commercial game through four years of full production and
+              a Steam release, contributed to PC, mobile, and WebGL projects, built
+              production tools for distributed teams, and previously shipped C++
+              software at Fujitsu.
             </p>
           </div>
 
@@ -433,24 +460,6 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="experience-strip" aria-label="Experience highlights">
-          <p>Unity 6</p>
-          <p>C#</p>
-          <p>C++</p>
-          <p>2D</p>
-          <p>3D</p>
-          <p>PC</p>
-          <p>Mobile</p>
-          <p>WebGL</p>
-          <p>Pixel Crushers</p>
-          <p>Steamworks</p>
-          <p>Git</p>
-          <p>Perforce</p>
-          <p>Agile</p>
-          <p>Codex</p>
-          <p>GitHub Copilot</p>
-          <p>Claude Code</p>
-        </div>
       </section>
 
       <section className="contact-section section-shell" id="contact">

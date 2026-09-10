@@ -288,6 +288,28 @@ svg {
   transform: scale(1.035);
 }
 
+.skills-section {
+  width: min(1440px, 100%);
+  margin: 0 auto;
+  padding: 1.75rem 4.5rem 2rem;
+  display: grid;
+  grid-template-columns: minmax(10rem, 0.28fr) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+  background: #111318;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.skills-heading {
+  margin: 0.7rem 0 0;
+  color: var(--secondary);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
 .image-wash {
   position: absolute;
   inset: 0;
@@ -899,9 +921,8 @@ svg {
   display: flex;
   flex-wrap: wrap;
   gap: 0.7rem;
-  margin-top: 6rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--border);
+  margin: 0;
+  padding: 0;
 }
 
 .experience-strip p {
@@ -982,6 +1003,7 @@ footer a:focus-visible {
 @media (max-width: 960px) {
   .site-header,
   .hero,
+  .skills-section,
   .section-shell {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -1001,6 +1023,15 @@ footer a:focus-visible {
     min-height: 25rem;
     aspect-ratio: 4 / 3;
     justify-self: end;
+  }
+
+  .skills-section {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .skills-heading {
+    margin-top: 0;
   }
 
   .contact-rail {
@@ -1090,6 +1121,11 @@ footer a:focus-visible {
   .hero-project {
     min-height: 25rem;
     aspect-ratio: 4 / 3;
+  }
+
+  .skills-section {
+    padding-top: 1.5rem;
+    padding-bottom: 1.65rem;
   }
 
   .section-shell {
