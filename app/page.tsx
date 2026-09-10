@@ -82,6 +82,11 @@ export default function Home() {
           <p>Codex</p>
           <p>GitHub Copilot</p>
           <p>Claude Code</p>
+          <p>Ren&apos;Py</p>
+          <p>Jira</p>
+          <p>Trello</p>
+          <p>monday.com</p>
+          <p>Miro</p>
         </div>
       </section>
 
