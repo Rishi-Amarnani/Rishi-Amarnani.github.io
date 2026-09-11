@@ -374,6 +374,77 @@ export default function Home() {
 
             <article className="archive-card">
               <span className="archive-number">08</span>
+              <p className="project-kicker">Fujitsu / 2019—2022</p>
+              <h4>Fujitsu C++ systems</h4>
+              <p>
+                Led team-wide development of a production feature across multiple
+                YANG data models, improved startup performance by 66% with Python
+                and C++ automation, and received the 2022 Clean Architect Award for
+                maintainable system design.
+              </p>
+              <ul className="archive-tags" aria-label="Technologies and disciplines">
+                <li>C++</li>
+                <li>Python</li>
+                <li>YANG</li>
+                <li>Agile Scrum</li>
+              </ul>
+            </article>
+
+            <article className="archive-card">
+              <span className="archive-number">09</span>
+              <p className="project-kicker">UT Austin / Technical game project</p>
+              <h4>Custom-built C++ game engine</h4>
+              <p>
+                Built a PC billiards game with meshes, audio, camera controls,
+                vector math, physics, adaptive AI, and error handling. The project
+                was an Intel showcase finalist and represented the program at GDC
+                2019.
+              </p>
+              <ul className="archive-tags" aria-label="Technologies and disciplines">
+                <li>C++</li>
+                <li>Ogre3D</li>
+                <li>Physics</li>
+                <li>PC</li>
+              </ul>
+            </article>
+
+            <article className="archive-card">
+              <span className="archive-number">10</span>
+              <p className="project-kicker">AT&amp;T / Engineering Intern / 2018</p>
+              <h4>AT&amp;T.com &amp; content authoring systems</h4>
+              <p>
+                Worked on the front page of AT&amp;T.com and content authoring
+                systems, building and updating customer-facing experiences with
+                HTML, CSS, Java, and JavaScript.
+              </p>
+              <ul className="archive-tags" aria-label="Technologies and disciplines">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+              </ul>
+            </article>
+
+            <article className="archive-card">
+              <span className="archive-number">11</span>
+              <p className="project-kicker">
+                Discover Desi Roots / Software Engineer / 2017
+              </p>
+              <h4>Interactive education platform</h4>
+              <p>
+                Created an interactive education platform using HTML, CSS, Java,
+                and JavaScript.
+              </p>
+              <ul className="archive-tags" aria-label="Technologies and disciplines">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+              </ul>
+            </article>
+
+            <article className="archive-card">
+              <span className="archive-number">12</span>
               <p className="project-kicker">Skallywags / Game jams</p>
               <h4>48–72-hour team game jams</h4>
               <p>
@@ -394,77 +465,6 @@ export default function Home() {
                 <li>48–72 hours</li>
                 <li>GGJ Austin winner</li>
                 <li>Lost Relic #11</li>
-              </ul>
-            </article>
-
-            <article className="archive-card">
-              <span className="archive-number">09</span>
-              <p className="project-kicker">Fujitsu / 2019—2022</p>
-              <h4>Fujitsu C++ systems</h4>
-              <p>
-                Led team-wide development of a production feature across multiple
-                YANG data models, improved startup performance by 66% with Python
-                and C++ automation, and received the 2022 Clean Architect Award for
-                maintainable system design.
-              </p>
-              <ul className="archive-tags" aria-label="Technologies and disciplines">
-                <li>C++</li>
-                <li>Python</li>
-                <li>YANG</li>
-                <li>Agile Scrum</li>
-              </ul>
-            </article>
-
-            <article className="archive-card">
-              <span className="archive-number">10</span>
-              <p className="project-kicker">UT Austin / Technical game project</p>
-              <h4>Custom-built C++ game engine</h4>
-              <p>
-                Built a PC billiards game with meshes, audio, camera controls,
-                vector math, physics, adaptive AI, and error handling. The project
-                was an Intel showcase finalist and represented the program at GDC
-                2019.
-              </p>
-              <ul className="archive-tags" aria-label="Technologies and disciplines">
-                <li>C++</li>
-                <li>Ogre3D</li>
-                <li>Physics</li>
-                <li>PC</li>
-              </ul>
-            </article>
-
-            <article className="archive-card">
-              <span className="archive-number">11</span>
-              <p className="project-kicker">AT&amp;T / Engineering Intern / 2018</p>
-              <h4>AT&amp;T.com &amp; content authoring systems</h4>
-              <p>
-                Worked on the front page of AT&amp;T.com and content authoring
-                systems, building and updating customer-facing experiences with
-                HTML, CSS, Java, and JavaScript.
-              </p>
-              <ul className="archive-tags" aria-label="Technologies and disciplines">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Java</li>
-                <li>JavaScript</li>
-              </ul>
-            </article>
-
-            <article className="archive-card">
-              <span className="archive-number">12</span>
-              <p className="project-kicker">
-                Discover Desi Roots / Software Engineer / 2017
-              </p>
-              <h4>Interactive education platform</h4>
-              <p>
-                Created an interactive education platform using HTML, CSS, Java,
-                and JavaScript.
-              </p>
-              <ul className="archive-tags" aria-label="Technologies and disciplines">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Java</li>
-                <li>JavaScript</li>
               </ul>
             </article>
           </div>
