@@ -69,6 +69,10 @@ export default function Home() {
           <p>Unity 6</p>
           <p>C#</p>
           <p>C++</p>
+          <p>Java</p>
+          <p>JavaScript</p>
+          <p>HTML</p>
+          <p>CSS</p>
           <p>2D</p>
           <p>3D</p>
           <p>PC</p>
@@ -426,6 +430,41 @@ export default function Home() {
                 <li>Ogre3D</li>
                 <li>Physics</li>
                 <li>PC</li>
+              </ul>
+            </article>
+
+            <article className="archive-card">
+              <span className="archive-number">11</span>
+              <p className="project-kicker">AT&amp;T / Engineering Intern / 2018</p>
+              <h4>AT&amp;T.com &amp; content authoring systems</h4>
+              <p>
+                Worked on the front page of AT&amp;T.com and content authoring
+                systems, building and updating customer-facing experiences with
+                HTML, CSS, Java, and JavaScript.
+              </p>
+              <ul className="archive-tags" aria-label="Technologies and disciplines">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+              </ul>
+            </article>
+
+            <article className="archive-card">
+              <span className="archive-number">12</span>
+              <p className="project-kicker">
+                Discover Desi Roots / Software Engineer / 2017
+              </p>
+              <h4>Interactive education platform</h4>
+              <p>
+                Created an interactive education platform using HTML, CSS, Java,
+                and JavaScript.
+              </p>
+              <ul className="archive-tags" aria-label="Technologies and disciplines">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java</li>
+                <li>JavaScript</li>
               </ul>
             </article>
           </div>
