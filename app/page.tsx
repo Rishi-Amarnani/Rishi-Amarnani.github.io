@@ -22,7 +22,7 @@ export default function Home() {
             <span aria-hidden="true">/</span> Unity engineer
           </p>
           <h1>
-            I design and build game systems
+            I build game systems
             <span> players can feel.</span>
           </h1>
           <p className="lede">
