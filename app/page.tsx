@@ -519,18 +519,18 @@ export default function Home() {
           <div className="capability-board">
             <div>
               <span>01</span>
-              <h3>Game design</h3>
-              <p>Combat, systems, progression, encounters, rewards, difficulty, and player feedback.</p>
+              <h3>Gameplay &amp; systems</h3>
+              <p>Combat, AI, progression, rewards, difficulty, and player feedback.</p>
             </div>
             <div>
               <span>02</span>
-              <h3>Narrative design &amp; implementation</h3>
-              <p>Story, worldbuilding, branching dialogue, quests, cutscenes, and in-engine events.</p>
+              <h3>Game content &amp; presentation</h3>
+              <p>Dialogue, quests, cutscenes, localization, animation, visual effects, and in-engine events.</p>
             </div>
             <div>
               <span>03</span>
-              <h3>Gameplay engineering &amp; tools</h3>
-              <p>Unity and C++, AI, editor workflows, content pipelines, telemetry, and optimization.</p>
+              <h3>Production tools</h3>
+              <p>Unity editor workflows, content pipelines, telemetry, debugging, and optimization.</p>
             </div>
             <div>
               <span>04</span>
