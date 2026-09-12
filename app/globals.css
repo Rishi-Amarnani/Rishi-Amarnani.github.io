@@ -319,13 +319,22 @@ svg {
   width: min(1440px, 100%);
   margin: 0 auto;
   padding: 1.75rem 4.5rem 2rem;
+  background: #111318;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.skills-row {
   display: grid;
   grid-template-columns: minmax(10rem, 0.28fr) minmax(0, 1fr);
   gap: 2rem;
   align-items: start;
-  background: #111318;
+}
+
+.skills-row-design {
+  margin-top: 1.65rem;
+  padding-top: 1.65rem;
   border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
 }
 
 .skills-heading {
@@ -1099,7 +1108,7 @@ footer a:focus-visible {
     justify-self: end;
   }
 
-  .skills-section {
+  .skills-row {
     grid-template-columns: 1fr;
     gap: 1rem;
   }

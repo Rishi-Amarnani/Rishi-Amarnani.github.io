@@ -62,42 +62,51 @@ export default function Home() {
         </a>
       </section>
 
-      <section className="skills-section" aria-labelledby="skills-title">
-        <p className="skills-heading" id="skills-title">
-          Design disciplines &amp; core stack
-        </p>
-        <div className="experience-strip" aria-label="Skills and experience">
-          <p>Systems design</p>
-          <p>Combat design</p>
-          <p>Narrative design</p>
-          <p>Level design</p>
-          <p>Encounter design</p>
-          <p>Prototyping</p>
-          <p>Unity 6</p>
-          <p>C#</p>
-          <p>C++</p>
-          <p>Java</p>
-          <p>JavaScript</p>
-          <p>HTML</p>
-          <p>CSS</p>
-          <p>2D</p>
-          <p>3D</p>
-          <p>PC</p>
-          <p>Mobile</p>
-          <p>WebGL</p>
-          <p>Pixel Crushers</p>
-          <p>Steamworks</p>
-          <p>Git</p>
-          <p>Perforce</p>
-          <p>Agile</p>
-          <p>Codex</p>
-          <p>GitHub Copilot</p>
-          <p>Claude Code</p>
-          <p>Ren&apos;Py</p>
-          <p>Jira</p>
-          <p>Trello</p>
-          <p>monday.com</p>
-          <p>Miro</p>
+      <section className="skills-section" aria-label="Skills and experience">
+        <div className="skills-row">
+          <p className="skills-heading" id="core-stack-title">
+            Core stack &amp; workflow
+          </p>
+          <div className="experience-strip" aria-labelledby="core-stack-title">
+            <p>Unity 6</p>
+            <p>C#</p>
+            <p>C++</p>
+            <p>Java</p>
+            <p>JavaScript</p>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>2D</p>
+            <p>3D</p>
+            <p>PC</p>
+            <p>Mobile</p>
+            <p>WebGL</p>
+            <p>Pixel Crushers</p>
+            <p>Steamworks</p>
+            <p>Git</p>
+            <p>Perforce</p>
+            <p>Agile</p>
+            <p>Codex</p>
+            <p>GitHub Copilot</p>
+            <p>Claude Code</p>
+            <p>Ren&apos;Py</p>
+            <p>Jira</p>
+            <p>Trello</p>
+            <p>monday.com</p>
+            <p>Miro</p>
+          </div>
+        </div>
+        <div className="skills-row skills-row-design">
+          <p className="skills-heading" id="design-disciplines-title">
+            Design disciplines
+          </p>
+          <div className="experience-strip" aria-labelledby="design-disciplines-title">
+            <p>Systems design</p>
+            <p>Combat design</p>
+            <p>Narrative design</p>
+            <p>Level design</p>
+            <p>Encounter design</p>
+            <p>Prototyping</p>
+          </div>
         </div>
       </section>
 
