@@ -170,7 +170,7 @@ svg {
 }
 
 .hero::before {
-  content: 'PLAY / BUILD / SHIP';
+  content: 'DESIGN / BUILD / SHIP';
   position: absolute;
   right: -1.8rem;
   top: 2rem;
@@ -930,6 +930,69 @@ svg {
   line-height: 1.55;
 }
 
+.design-credits {
+  margin-top: 7rem;
+}
+
+.design-credits-heading {
+  display: grid;
+  grid-template-columns: minmax(10rem, 0.36fr) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+  margin-bottom: 3rem;
+}
+
+.design-credits-heading h3 {
+  max-width: 16ch;
+  margin: 0;
+  font-size: clamp(2.25rem, 4vw, 4.5rem);
+  line-height: 0.98;
+  letter-spacing: -0.06em;
+}
+
+.design-credit-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--border);
+  border-left: 1px solid var(--border);
+  list-style: none;
+}
+
+.design-credit-list li {
+  min-height: 6.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: #0e1014;
+}
+
+.design-credit-list li > span {
+  max-width: 23rem;
+  font-size: 1.05rem;
+  font-weight: 650;
+  line-height: 1.35;
+  letter-spacing: -0.025em;
+}
+
+.design-credit-list strong {
+  flex: 0 0 auto;
+  padding: 0.45rem 0.6rem;
+  color: var(--secondary);
+  border: 1px solid currentColor;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.25;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
 .experience-strip {
   display: flex;
   flex-wrap: wrap;
@@ -1093,6 +1156,10 @@ footer a:focus-visible {
     grid-template-columns: 1fr;
   }
 
+  .design-credits-heading {
+    grid-template-columns: 1fr;
+  }
+
   .contact-layout {
     align-items: start;
   }
@@ -1221,6 +1288,21 @@ footer a:focus-visible {
 
   .capability-board {
     grid-template-columns: 1fr;
+  }
+
+  .design-credits {
+    margin-top: 5rem;
+  }
+
+  .design-credit-list {
+    grid-template-columns: 1fr;
+  }
+
+  .design-credit-list li {
+    min-height: 0;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.8rem;
   }
 
   .capability-board > div {

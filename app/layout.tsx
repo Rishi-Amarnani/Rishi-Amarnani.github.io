@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Rishi Amarnani — Game Developer & Unity Engineer',
+  title: 'Rishi Amarnani — Game Designer & Developer',
   description:
-    'Rishi Amarnani builds gameplay, narrative systems, and production tools for PC, mobile, and WebGL games.',
+    'Rishi Amarnani designs and builds combat, narrative, progression, and production systems for PC, mobile, and WebGL games.',
 };
 
 export default function RootLayout({

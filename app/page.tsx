@@ -18,15 +18,16 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-copy">
           <p className="eyebrow">
-            Game developer <span aria-hidden="true">/</span> Unity engineer
+            Game designer <span aria-hidden="true">/</span> developer{' '}
+            <span aria-hidden="true">/</span> Unity engineer
           </p>
           <h1>
-            I build game systems
+            I design and build game systems
             <span> players can feel.</span>
           </h1>
           <p className="lede">
-            Eight years turning combat, narrative, progression, and production
-            problems into shipped experiences—across PC, mobile, and WebGL.
+            Eight years designing and implementing combat, narrative, progression,
+            and production systems for shipped PC, mobile, and WebGL games.
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="#work">
@@ -56,16 +57,22 @@ export default function Home() {
           </span>
           <span className="hero-project-meta">
             <span>Four years of full production</span>
-            <span>Shipped 2026 / Founder &amp; Lead Developer</span>
+            <span>Shipped 2026 / Founder, Lead Designer &amp; Developer</span>
           </span>
         </a>
       </section>
 
       <section className="skills-section" aria-labelledby="skills-title">
         <p className="skills-heading" id="skills-title">
-          Core stack &amp; workflow
+          Design disciplines &amp; core stack
         </p>
         <div className="experience-strip" aria-label="Skills and experience">
+          <p>Systems design</p>
+          <p>Combat design</p>
+          <p>Narrative design</p>
+          <p>Level design</p>
+          <p>Encounter design</p>
+          <p>Prototyping</p>
           <p>Unity 6</p>
           <p>C#</p>
           <p>C++</p>
@@ -97,7 +104,7 @@ export default function Home() {
       <section className="work-section section-shell" id="work">
         <div className="section-heading">
           <p className="section-index">01 / Work</p>
-          <h2>Shipped work, tools, and production experience.</h2>
+          <h2>Game design, engineering, and shipped production.</h2>
         </div>
 
         <article className="case-study">
@@ -118,10 +125,10 @@ export default function Home() {
 
           <div className="case-detail">
             <p>
-              As founder and lead developer, I owned the systems that made the
-              game move, fight, tell its story, and ship: combat, AI, progression,
-              dialogue, cutscenes, localization, tooling, performance, and release
-              coordination.
+              As founder, lead game designer, and lead developer, I owned the
+              design and implementation of the systems that made the game move,
+              fight, tell its story, and ship: combat, AI, progression, dialogue,
+              cutscenes, localization, tooling, performance, and release coordination.
             </p>
             <dl className="impact-grid">
               <div>
@@ -150,8 +157,8 @@ export default function Home() {
             alt="Boomerang Jack fighting multiple enemies inside a fiery combat arena"
           />
           <figcaption>
-            Combat implementation spanned multi-enemy encounters, bosses,
-            projectiles, progression, player feedback, and difficulty pacing.
+            Combat design and implementation spanned multi-enemy encounters,
+            bosses, projectiles, progression, player feedback, and difficulty pacing.
           </figcaption>
         </figure>
 
@@ -172,8 +179,9 @@ export default function Home() {
             <h3>A whole-game role across production and release.</h3>
             <p className="case-summary">
               I founded Recall Interactive and led three developers and two
-              interns during full production, owning the decisions, systems, and
-              coordination behind the game&apos;s eventual commercial Steam release.
+              interns during full production, owning the game-design decisions,
+              systems, and coordination behind the game&apos;s eventual commercial
+              Steam release.
             </p>
 
             <div className="story-grid">
@@ -224,10 +232,10 @@ export default function Home() {
               <p className="project-kicker">Games for Love / 2025—Present</p>
               <h3>Kicklings World Soccer 2D</h3>
               <p>
-                Helped ship and support the Unity WebGL tournament build now
-                available through Jampack. Built adaptive difficulty, analytics,
-                content integrations, an art-asset pipeline, and internal tools
-                that sped up design and art iteration.
+                Contributed game design and engineering to the Unity WebGL
+                tournament build now available through Jampack. Designed and built
+                adaptive difficulty, analytics, content integrations, an art-asset
+                pipeline, and internal tools that sped up design and art iteration.
               </p>
               <div className="project-links">
                 <a href="https://jampack.org/" target="_blank" rel="noreferrer">
@@ -268,8 +276,8 @@ export default function Home() {
               <p className="project-kicker">Contract studio / 2026</p>
               <h3>Online mobile RPG</h3>
               <p>
-                Translated design requirements into modular combat AI, NavMesh
-                navigation, UGUI, and adaptive pacing systems—then optimized them
+                Designed and implemented modular combat AI, NavMesh navigation,
+                UGUI, and adaptive encounter pacing—then optimized those systems
                 for large mobile encounters.
               </p>
               <ul className="tag-list" aria-label="Technologies and disciplines">
@@ -295,13 +303,15 @@ export default function Home() {
           <div className="archive-grid">
             <article className="archive-card">
               <span className="archive-number">05</span>
-              <p className="project-kicker">Sandstorm Games / 2026—Present</p>
+              <p className="project-kicker">
+                Sandstorm Games / Lead game design &amp; development / 2026—Present
+              </p>
               <h4>Unannounced neo-noir action game</h4>
               <p>
-                Wrote plot and worldbuilding, organized narrative documentation and
-                development planning, and prototyped top-down combat with 15 enemy
-                types, bullet time, minibosses, advanced AI, difficulty tuning,
-                tools, and concept art.
+                Leading game design and development: wrote the plot and
+                worldbuilding, organized narrative and production planning, and
+                prototyped top-down combat with 15 enemy types, bullet time,
+                minibosses, advanced AI, difficulty tuning, tools, and concept art.
               </p>
               <ul className="archive-tags" aria-label="Technologies and disciplines">
                 <li>Unity</li>
@@ -338,13 +348,15 @@ export default function Home() {
 
             <article className="archive-card">
               <span className="archive-number">07</span>
-              <p className="project-kicker">Team Whirligig / 2018</p>
+              <p className="project-kicker">
+                Team Whirligig / Game design &amp; lead gameplay programming / 2018
+              </p>
               <h4>Royal Plush</h4>
               <p>
-                Led gameplay programming for a released 3D Unity action-adventure,
-                building mission management, stealth detection, physics-based
-                platforming, environmental interactions, and build management. A
-                Finnish Let&apos;s Play has reached 345K views.
+                Designed and built mission flow, stealth detection, physics-based
+                platforming, and environmental interactions while leading gameplay
+                programming and build management for the released 3D Unity
+                action-adventure. A Finnish Let&apos;s Play has reached 345K views.
               </p>
               <div className="archive-links">
                 <a
@@ -392,13 +404,15 @@ export default function Home() {
 
             <article className="archive-card">
               <span className="archive-number">09</span>
-              <p className="project-kicker">UT Austin / Technical game project</p>
+              <p className="project-kicker">
+                UT Austin / Game design &amp; custom-engine project
+              </p>
               <h4>Custom-built C++ game engine</h4>
               <p>
-                Built a PC billiards game with meshes, audio, camera controls,
-                vector math, physics, adaptive AI, and error handling. The project
-                was an Intel showcase finalist and represented the program at GDC
-                2019.
+                Designed and built a PC billiards game with meshes, audio, camera
+                controls, vector math, physics, adaptive AI, and error handling.
+                The project was an Intel showcase finalist and represented the
+                program at GDC 2019.
               </p>
               <ul className="archive-tags" aria-label="Technologies and disciplines">
                 <li>C++</li>
@@ -445,13 +459,14 @@ export default function Home() {
 
             <article className="archive-card">
               <span className="archive-number">12</span>
-              <p className="project-kicker">Skallywags / Game jams</p>
+              <p className="project-kicker">Skallywags / Game design &amp; development</p>
               <h4>48–72-hour team game jams</h4>
               <p>
-                Built five small-team games spanning action, platforming, and puzzle
-                design. Won Global Game Jam Austin with Superpositioned and placed
-                11th in the Lost Relic Game Jam with Grapple Blast!; the collection
-                also includes Gravity Blast, Cranky Robot, and Kube a la Neon.
+                Designed and built five small-team games spanning action,
+                platforming, and puzzle design. Won Global Game Jam Austin with
+                Superpositioned and placed 11th in the Lost Relic Game Jam with
+                Grapple Blast!; the collection also includes Gravity Blast,
+                Cranky Robot, and Kube a la Neon.
               </p>
               <a
                 className="archive-link"
@@ -474,38 +489,39 @@ export default function Home() {
       <section className="about-section section-shell" id="about">
         <div className="section-heading">
           <p className="section-index">02 / About</p>
-          <h2>What I’ve built and worked with.</h2>
+          <h2>How I design, build, and ship games.</h2>
         </div>
 
         <div className="about-grid">
           <div className="about-copy">
             <p className="about-lede">
-              My work spans gameplay programming, game design, narrative
-              implementation, Unity tools, content pipelines, and release support.
+              I’m a game designer and developer who takes ideas from rules,
+              encounters, and narrative beats through implementation and player
+              feedback.
             </p>
             <p>
-              I’ve led a commercial game through four years of full production and
-              a Steam release, contributed to PC, mobile, and WebGL projects, built
-              production tools for distributed teams, and previously shipped C++
-              software at Fujitsu.
+              I’ve led the design and development of a commercial game through four
+              years of full production and a Steam release, designed for PC,
+              mobile, and WebGL projects, built production tools for distributed
+              teams, and previously shipped C++ software at Fujitsu.
             </p>
           </div>
 
           <div className="capability-board">
             <div>
               <span>01</span>
-              <h3>Gameplay &amp; systems</h3>
-              <p>Combat, AI, progression, rewards, difficulty, and player feedback.</p>
+              <h3>Game design</h3>
+              <p>Combat, systems, progression, encounters, rewards, difficulty, and player feedback.</p>
             </div>
             <div>
               <span>02</span>
-              <h3>Narrative implementation</h3>
-              <p>Branching dialogue, cutscenes, quests, localization, and in-engine events.</p>
+              <h3>Narrative design &amp; implementation</h3>
+              <p>Story, worldbuilding, branching dialogue, quests, cutscenes, and in-engine events.</p>
             </div>
             <div>
               <span>03</span>
-              <h3>Production tools</h3>
-              <p>Unity editor workflows, content pipelines, telemetry, debugging, and optimization.</p>
+              <h3>Gameplay engineering &amp; tools</h3>
+              <p>Unity and C++, AI, editor workflows, content pipelines, telemetry, and optimization.</p>
             </div>
             <div>
               <span>04</span>
@@ -514,6 +530,49 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <section className="design-credits" aria-labelledby="design-credits-title">
+          <div className="design-credits-heading">
+            <p className="project-kicker">Selected game design credits</p>
+            <h3 id="design-credits-title">
+              Design work across shipped games, prototypes, and game jams.
+            </h3>
+          </div>
+          <ul className="design-credit-list">
+            <li>
+              <span>Boomerang Jack</span>
+              <strong>Lead game design</strong>
+            </li>
+            <li>
+              <span>Unannounced neo-noir action game</span>
+              <strong>Lead game design</strong>
+            </li>
+            <li>
+              <span>Kicklings World Soccer 2D</span>
+              <strong>Game design</strong>
+            </li>
+            <li>
+              <span>Estelar: Freighter</span>
+              <strong>Game design</strong>
+            </li>
+            <li>
+              <span>Online mobile RPG</span>
+              <strong>Game design</strong>
+            </li>
+            <li>
+              <span>Royal Plush</span>
+              <strong>Game design</strong>
+            </li>
+            <li>
+              <span>Custom C++ billiards game</span>
+              <strong>Game design</strong>
+            </li>
+            <li>
+              <span>48–72-hour game jams</span>
+              <strong>Game design</strong>
+            </li>
+          </ul>
+        </section>
 
       </section>
 
