@@ -747,6 +747,23 @@ svg {
   color: #25272b;
 }
 
+.project-status,
+.archive-status {
+  width: fit-content;
+  padding: 0.45rem 0.65rem;
+  color: var(--secondary);
+  border: 1px solid currentColor;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.72rem;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.project-card:hover .project-status {
+  color: #25272b;
+}
+
 .project-links a:hover,
 .project-links a:focus-visible,
 .archive-link:hover,
@@ -854,6 +871,10 @@ svg {
 
 .archive-link,
 .archive-links {
+  margin-top: 1.5rem;
+}
+
+.archive-status {
   margin-top: 1.5rem;
 }
 

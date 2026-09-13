@@ -274,6 +274,9 @@ export default function Home() {
                 resource systems, rewards, and encounter pacing. Built an
                 authoring workflow that made level iteration 3× faster.
               </p>
+              <div className="project-links">
+                <span className="project-status">Coming soon</span>
+              </div>
               <ul className="tag-list" aria-label="Technologies and disciplines">
                 <li>Unity 6</li>
                 <li>Gameplay AI</li>
@@ -293,6 +296,9 @@ export default function Home() {
                 UGUI, and adaptive encounter pacing—then optimized those systems
                 for large mobile encounters.
               </p>
+              <div className="project-links">
+                <span className="project-status">Coming soon</span>
+              </div>
               <ul className="tag-list" aria-label="Technologies and disciplines">
                 <li>Mobile</li>
                 <li>NavMesh</li>
@@ -326,6 +332,7 @@ export default function Home() {
                 prototyped top-down combat with 15 enemy types, bullet time,
                 minibosses, advanced AI, difficulty tuning, tools, and concept art.
               </p>
+              <span className="archive-status">Coming soon</span>
               <ul className="archive-tags" aria-label="Technologies and disciplines">
                 <li>Unity</li>
                 <li>Narrative</li>
