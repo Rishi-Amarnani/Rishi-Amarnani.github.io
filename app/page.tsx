@@ -134,10 +134,10 @@ export default function Home() {
 
           <div className="case-detail">
             <p>
-              As founder, lead game designer, and lead developer, I owned the
-              design and implementation of the systems that made the game move,
-              fight, tell its story, and ship: combat, AI, progression, dialogue,
-              cutscenes, localization, tooling, performance, and release coordination.
+              As founder, lead game designer, and lead developer, I took the
+              game&apos;s core systems from design through implementation and release:
+              combat, AI, progression, dialogue, cutscenes, tooling, localization,
+              performance, and shipping.
             </p>
             <dl className="impact-grid">
               <div>
@@ -247,8 +247,12 @@ export default function Home() {
                 pipeline, and internal tools that sped up design and art iteration.
               </p>
               <div className="project-links">
-                <a href="https://jampack.org/" target="_blank" rel="noreferrer">
-                  Visit Jampack <span aria-hidden="true">↗</span>
+                <a
+                  href="https://jampack.org/games/kicklingstm-world-soccer-2d/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Kicklings on Jampack <span aria-hidden="true">↗</span>
                 </a>
               </div>
               <ul className="tag-list" aria-label="Technologies and disciplines">
@@ -542,10 +546,14 @@ export default function Home() {
 
         <section className="design-credits" aria-labelledby="design-credits-title">
           <div className="design-credits-heading">
-            <p className="project-kicker">Selected game design credits</p>
-            <h3 id="design-credits-title">
-              Design work across shipped games, prototypes, and game jams.
-            </h3>
+            <p className="project-kicker">Role focus / Game design</p>
+            <div className="design-credits-intro">
+              <h3 id="design-credits-title">Selected game design credits.</h3>
+              <p>
+                This list isolates my design roles; the project case studies above
+                cover my programming and engineering work.
+              </p>
+            </div>
           </div>
           <ul className="design-credit-list">
             <li>
